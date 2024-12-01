@@ -10,17 +10,10 @@ LSAExplorer is a C# .NET tool designed to interact with the Windows Local Securi
 ## Features
 
 - **LSA Secret Management**: Access and retrieve sensitive LSA secrets and their timestamps from the registry.
-- **Privilege Elevation**: Elevate the current process to SYSTEM-level privileges using token manipulation (optional in restricted environments).
+- **Privilege Elevation**: Elevate the current process to SYSTEM-level privileges using token manipulation.
 - **Token Impersonation**: Open and duplicate tokens to impersonate logged-on users.
 - **Registry Secret Access**: Interact with and retrieve registry keys under `HKLM\SECURITY\Policy\Secrets`.
 - **Winlogon Process Query**: Automatically locate the `winlogon` process ID for SYSTEM impersonation.
-
----
-
-## Requirements
-
-- **Operating System**: Windows 10/11 (x64 recommended).
-- **Framework**: .NET Framework 4.7.2 or higher.
 
 ---
 
